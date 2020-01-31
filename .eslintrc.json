@@ -8,14 +8,5 @@
   },
   "rules": {
     "semi": "error"
-  },
-  "overrides": [
-    {
-      "files": ["src/static/libraries/*.js"],
-      "excludedFiles": "*.test.js",
-      "rules": {
-        "quotes": ["error", "single"]
-      }
-    }
-  ]
+  }
 }

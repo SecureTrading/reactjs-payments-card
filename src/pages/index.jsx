@@ -2,11 +2,11 @@ import React, { Component } from "react"
 import Card from "@securetrading/js-payments-card/dist/stcard"
 import "@securetrading/js-payments-card/dist/stcardstyle.css"
 import Layout from "../components/layout/layout"
-import { animatedCardExampleConfig } from "../config/animatedCardExampleConfig"
+import { config } from "../config/config"
 
 class AnimatedCard extends Component {
   componentDidMount() {
-    const card = new Card(animatedCardExampleConfig)
+    const card = new Card(config)
     card.onCardNumberInput("st-card-number-input", function(event) {
     })
     card.onExpirationDateInput("st-expiration-date-input", function(event) {

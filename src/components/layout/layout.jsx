@@ -4,7 +4,6 @@ import PropTypes from "prop-types"
 import { Footer } from "../footer/footer"
 import { LayoutStyled } from "./layout.styled"
 import { Header } from "../header/header"
-import "../../../static/libraries/st.css"
 
 export const Layout = (props) =>  {
     return (
